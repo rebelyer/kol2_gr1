@@ -2,6 +2,12 @@ import student
 import course
 
 class Diary(object):
+    """ Poprawa:
+            * maksymalnie 3 klasy
+            * zapis i wczytywanie do pliku
+            * każda z klas maksymalnie 5 funkcji
+            * każda z funkcji 4 linijki nie liczac nazwy funkcji i return (czyli razem 6 xd)
+    """
     def __init__(self, name):
         self.name = name
         self.courses = []
