@@ -1,11 +1,9 @@
 class Student(object):
     """ Simple Student class"""
 
-    def __init__(self, name, surname, attendance = 0, scores = []):
-        self.name = name
+    def __init__(self, firstname, surname):
+        self.firstname = firstname
         self.surname = surname
-        self.attendance = attendance
-        self.scores = scores
 
     def insert_score(self, score):
         self.scores.append(score)
