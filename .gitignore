@@ -1,2 +1,8 @@
 # Python compiled files
 *.pyc
+
+# IDE files
+.idea/*
+
+# yml files
+*.yml
